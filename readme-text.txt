@@ -17,3 +17,7 @@ pip install mysqlclient
 python manage.py runserver
 python manage.py makemigrations
 python manage.py migrate
+
+ python .\manage.py createsuperuser
+ http://127.0.0.1:8000/admin
+ admin  admin
