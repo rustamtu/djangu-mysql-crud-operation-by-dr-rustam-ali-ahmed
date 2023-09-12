@@ -11,5 +11,8 @@ from django.http import HttpResponse, HttpResponseRedirect
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 
+def home(request):
+    return HttpResponse("polls->home")
+
 def raa(request):
     return HttpResponse("Hello, world. You're at the polls raa function.")
