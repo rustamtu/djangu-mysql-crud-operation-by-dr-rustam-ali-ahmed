@@ -10,3 +10,10 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/rustamtu/djangu-mysql-crud-operation-by-dr-rustam-ali-ahmed.git
 git push -u origin main
+
+
+Create mysqldb admin
+pip install mysqlclient
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
